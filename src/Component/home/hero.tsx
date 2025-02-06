@@ -1,19 +1,17 @@
+import image1 from "../../assets/svg/Group-1057.svg";
+
 function Hero() {
   return (
     <>
-      <div className="container  mx-auto">
-        <div className="flex flex-row gap-4  items-center ">
-          <div className="relative lg:max-w-[644px] w-full bg-red-800">
+      <div className="container  max-w-[1200px] mx-auto ">
+        <div className="grid grid-cols-[644px_482px] justify-between items-center ">
+          <div className="relative w-full">
             <div className="absolute">
               <img src="src/assets/svg/Rectangle-6759.svg" alt="" />
             </div>
             <div className="relative flex flex-col items-center gap-8">
               <div className="image1">
-                <img
-                  src="src/assets/svg/Group-1057.svg"
-                  alt="Logo"
-                  className=""
-                />
+                <img src={image1} alt="Logo" className="" />
               </div>
               <div className="flex flex-row gap-8">
                 <div className="">
@@ -46,7 +44,7 @@ function Hero() {
                   Entrepreneurs
                 </span>
               </h1>
-              <p className="normal-case font-sans text-[20px] leading-8 text-Neutral-400">
+              <p className="normal-case font-sans text-xl leading-8 text-Neutral-400">
                 Scale with checking and savings accounts, custom tools, and
                 access to our investor network.
               </p>
@@ -68,7 +66,38 @@ function Hero() {
                 </button>
               </div>
             </div>
-            
+            <div className="flex flex-row justify-between">
+              <div className="gap-2 text-center">
+                <h2 className="font-sans font-bold text-5xl text-Primary-600">
+                  10%
+                </h2>
+                <p className="font-sans text-base text-Neutral-300">
+                  Benefical
+                  <br />
+                  Cashback
+                </p>
+              </div>
+              <div className="gap-2 text-center">
+                <h2 className="font-sans font-bold text-5xl text-Primary-600">
+                  7M
+                </h2>
+                <p className="font-sans text-base text-Neutral-300">
+                  Satisfied
+                  <br />
+                  Customer
+                </p>
+              </div>
+              <div className="gap-2 text-center">
+                <h2 className="font-sans font-bold text-5xl text-Primary-600">
+                  10%
+                </h2>
+                <p className="font-sans text-base text-Neutral-300">
+                  Country
+                  <br />
+                  Available
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

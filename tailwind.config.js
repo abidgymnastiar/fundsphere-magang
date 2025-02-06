@@ -23,7 +23,7 @@ export default {
           200: "#F7F0FF",
           100: "#FBF7FF",
         },
-        Additional : {
+        Additional: {
           white: "#FFFFF",
           NavyBlue: "#0F2060",
         },
