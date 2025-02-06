@@ -1,14 +1,14 @@
 import "./App.css";
-
-import Header from "./Component/home/header";
+import Hero from "./Component/home/hero";
 import Navbar from "./Component/navbar";
 
 function App() {
   return (
     <>
-      <div className="w-full h-full ">
+      <div className="w-full h-full">
         <Navbar />
-        <Header />
+        <div className="pt-9"></div>
+        <Hero />
       </div>
     </>
   );

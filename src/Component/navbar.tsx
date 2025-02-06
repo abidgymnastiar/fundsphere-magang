@@ -34,7 +34,7 @@ function Navbar() {
           ></input>
         </div>
 
-        <div className="xl:hidden">
+        <div className="xl:hidden ">
           <i
             className="bx bx-menu text-5xl cursor-pointer"
             onClick={() => setShowMenu(!showMenu)}
