@@ -1,5 +1,8 @@
 import "./App.css";
+import Blog from "./Component/home/blog";
+import Features from "./Component/home/features";
 import Hero from "./Component/home/hero";
+import Iklan from "./Component/home/iklan";
 import Navbar from "./Component/navbar";
 
 function App() {
@@ -7,8 +10,10 @@ function App() {
     <>
       <div className="w-full h-full">
         <Navbar />
-        <div className="pt-9"></div>
         <Hero />
+        <Iklan />
+        <Features />
+        <Blog />
       </div>
     </>
   );
