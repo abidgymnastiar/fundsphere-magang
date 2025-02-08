@@ -18,7 +18,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
       </div>
 
       <div className="flex flex-col gap-4">
-        <h2 className="normal-case font-sans font-bold text-5xl text-Neutral-600">
+        <h2 className="normal-case font-sans font-bold text-5xl leading-[57px] text-Neutral-600">
           {title}
         </h2>
         <p className="normal-case font-sans text-lg text-Neutral-400">
