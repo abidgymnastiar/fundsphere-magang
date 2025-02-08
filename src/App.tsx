@@ -4,6 +4,9 @@ import Features from "./Component/home/features";
 import Hero from "./Component/home/hero";
 import Iklan from "./Component/home/iklan";
 import Navbar from "./Component/navbar";
+import Plan from "./Component/home/plan";
+import Testimony from "./Component/home/testimoni";
+import Footer from "./Component/footer";
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
         <Hero />
         <Iklan />
         <Features />
+        <Plan />
         <Blog />
+        <Testimony />
+        <Footer />
       </div>
     </>
   );
