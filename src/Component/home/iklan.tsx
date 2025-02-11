@@ -2,8 +2,8 @@ function Iklan() {
   return (
     <div className="bg-Additional-NavyBlue">
       <div className="container  max-w-[1200px] py-14 mx-auto">
-        <div className="flex flex-row gap-36 justify-center">
-          <div className="group inline-block">
+        <div className="flex flex-row gap-12 lg:gap-36 justify-center">
+          <div className="group inline-block ">
             <svg
               width="84"
               height="30"
@@ -29,7 +29,7 @@ function Iklan() {
               />
             </svg>
           </div>
-          <div className="group inline-block">
+          <div className="group inline-block max-w-[25%] md:max-w-none">
             <svg
               width="104"
               height="41"
@@ -99,7 +99,7 @@ function Iklan() {
               </defs>
             </svg>
           </div>
-          <div className="group inline-block">
+          <div className="group inline-block max-w-[25%] md:max-w-none">
             <svg
               width="92"
               height="38"
@@ -137,7 +137,7 @@ function Iklan() {
               </defs>
             </svg>
           </div>
-          <div className="group inline-block">
+          <div className="group inline-block max-w-[25%] md:max-w-none">
             <svg
               width="157"
               height="40"

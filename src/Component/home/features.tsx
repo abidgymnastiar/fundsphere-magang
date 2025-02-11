@@ -4,7 +4,7 @@ import SectionHeader from "./ui/header";
 
 function Features() {
   return (
-    <div className="container  max-w-[1200px] mx-auto py-20">
+    <div className="container  max-w-[1200px] px-5 lg:px-none mx-auto py-10 lg:py-20">
       <div className="flex flex-col gap-14 items-center">
         {/* header */}
         <SectionHeader
@@ -13,13 +13,13 @@ function Features() {
           description="Growth-accelerating products for startups, ecommerce stores, angel investors, & more."
         />
         {/* content */}
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="flex flex-col gap-8 px-8 py-10 bg-Neutral-100 rounded-lg">
             <div className="flex flex-col gap-2">
-              <h3 className="normal-case font-sans font-bold text-3xl text-Neutral-600">
+              <h3 className="normal-case font-sans font-bold text-2xl lg:text-3xl text-Neutral-600">
                 Pay with Fundsphere, quick, simple and easy
               </h3>
-              <p className="normal-case font-sans font-normal text-lg text-Neutral-400">
+              <p className="normal-case font-sans font-normal text-base lg:text-lg text-Neutral-400">
                 Use Fundsphere to pay to a merchant and enjoy optimal payment
                 user experience.
               </p>
@@ -30,10 +30,10 @@ function Features() {
           </div>
           <div className="flex flex-col gap-8 px-8 py-10 bg-Neutral-100 rounded-lg">
             <div className="flex flex-col gap-2">
-              <h3 className="normal-case font-sans font-bold text-3xl text-Neutral-600">
+              <h3 className="normal-case font-sans font-bold text-2xl lg:text-3xl text-Neutral-600">
                 Bank-level Security
               </h3>
-              <p className="normal-case font-sans font-normal text-lg text-Neutral-400">
+              <p className="normal-case font-sans font-normal text-base lg:text-lg text-Neutral-400">
                 Personal information is encrypted and protected by industry
                 standard banking security..
               </p>
