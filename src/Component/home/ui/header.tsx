@@ -17,11 +17,11 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
         </p>
       </div>
 
-      <div className="flex flex-col gap-4">
-        <h2 className="normal-case font-sans font-bold text-5xl leading-[57px] text-Neutral-600">
+      <div className="flex flex-col gap-2 lg:gap-4">
+        <h2 className="normal-case font-sans font-bold text-3xl lg:text-5xl leading-[57px] text-Neutral-600">
           {title}
         </h2>
-        <p className="normal-case font-sans text-lg text-Neutral-400">
+        <p className="normal-case font-sans text-base lg:text-lg text-Neutral-400">
           {description}
         </p>
       </div>

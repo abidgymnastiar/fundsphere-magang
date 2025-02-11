@@ -5,7 +5,7 @@ import icon from "../../assets/svg/icon/Icon.svg";
 function Plan() {
   const [isAnnual, setIsAnnual] = useState(false);
   return (
-    <div className="container  max-w-[1200px] mx-auto py-20">
+    <div className="container  max-w-[1200px] mx-auto px-5 lg-px-none py-20">
       <div className="flex flex-col gap-10">
         <SectionHeader
           label="PRICING PLAN"
@@ -44,8 +44,8 @@ function Plan() {
           </div>
 
           {/* card */}
-          <div className="grid grid-cols-3 gap-8">
-            <div className="flex flex-col px-10 py-8 bg-Neutral-100 rounded-3xl border border-Primary-600 min-h-[685px] justify-between">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="flex flex-col px-10 py-8 gap-12 lg:gap-0 bg-Neutral-100 rounded-3xl border border-Primary-600 lg:min-h-[685px] justify-between">
               <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-6">
                   <h3 className="font-sans font-bold text-3xl text-Neutral-600">
@@ -90,7 +90,7 @@ function Plan() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col px-10 py-8 bg-Neutral-600 rounded-3xl min-h-[685px] justify-between">
+            <div className="flex flex-col px-10 py-8 gap-12 lg:gap-0 bg-Neutral-600 rounded-3xl lg:min-h-[685px] justify-between">
               <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-6">
                   <h3 className="font-sans font-bold text-3xl text-white">
@@ -152,7 +152,7 @@ function Plan() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col px-10 py-8 bg-Neutral-100 rounded-3xl border border-Primary-600 min-h-[685px] justify-between">
+            <div className="flex flex-col px-10 py-8 gap-12 lg:gap-0 bg-Neutral-100 rounded-3xl border border-Primary-600 lg:min-h-[685px] justify-between">
               <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-6">
                   <h3 className="font-sans font-bold text-3xl text-Neutral-600">
