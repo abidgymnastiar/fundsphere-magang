@@ -19,7 +19,7 @@ function content() {
             </div>
             <div className="flex flex-col gap-16">
               <div className="flex flex-row justify-between">
-                <div className="flex flex-row flex-wrap gap-12 lg:gap-32">
+                <div className="flex flex-row flex-wrap gap-12 md:gap-32">
                   <div className="flex flex-col gap-3">
                     <p className="font-sans font-medium text-base text-white">
                       Platform
