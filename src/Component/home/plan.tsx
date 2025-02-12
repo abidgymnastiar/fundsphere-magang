@@ -6,7 +6,7 @@ function Plan() {
   const [isAnnual, setIsAnnual] = useState(false);
   return (
     <div className="container  max-w-[1200px] mx-auto px-5 lg-px-none py-20">
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 items-center">
         <SectionHeader
           label="PRICING PLAN"
           title="Choose Package"
