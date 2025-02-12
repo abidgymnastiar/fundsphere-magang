@@ -7,7 +7,7 @@ function Navbar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   return (
     <>
-      <div className="sticky top-0 bg-Primary-100 z-50 shadow-md px-5">
+      <div className="sticky top-0 bg-white z-50 px-5">
         <div className="container flex justify-between items-center mx-auto py-8 ">
           <div className="flex flex-row gap-28">
             <a href="#">
