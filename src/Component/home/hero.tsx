@@ -3,6 +3,8 @@ import image2 from "../../assets/svg/hero/Graphic.svg";
 import image3 from "../../assets/svg/hero/Mask group.svg";
 import image4 from "../../assets/svg/hero/Rectangle-6759.svg";
 import SectionLabel from "./ui/label";
+import Sectionformemail from "./ui/form_email";
+import SectionPresentation from "./ui/presentation";
 
 function Hero() {
   return (
@@ -47,56 +49,10 @@ function Hero() {
                     </p>
                   </div>
                 </div>
-                <div className=" flex flex-row justify-between w-full border-2 rounded-full py-1 pr-1 pl-8 border-Neutral-200">
-                  <input
-                    id="email"
-                    name="email"
-                    type="text"
-                    placeholder="Your work email"
-                    className="w-full flex-1 normal-case font-sans text-base text-Neutral-400 focus:outline-none "
-                  />
-                  <div className="inline-block flex-none rounded-full bg-Primary-600 hover:bg-Primary-400">
-                    <button
-                      type="submit"
-                      className=" capitalize font-sans font-normal text-base text-white py-3 px-8 lg:py-4"
-                    >
-                      Get Started
-                    </button>
-                  </div>
-                </div>
+                <Sectionformemail />
               </div>
-              <div className="flex flex-row justify-between">
-                <div className="gap-2 text-center">
-                  <h2 className="font-sans font-bold text-4xl lg:text-5xl text-Primary-600">
-                    10%
-                  </h2>
-                  <p className="font-sans text-sm lg:text-base text-Neutral-300">
-                    Benefical
-                    <br />
-                    Cashback
-                  </p>
-                </div>
-                <div className="gap-2 text-center">
-                  <h2 className="font-sans font-bold text-4xl lg:text-5xl text-Primary-600">
-                    7M
-                  </h2>
-                  <p className="font-sans text-sm lg:text-base text-Neutral-300">
-                    Satisfied
-                    <br />
-                    Customer
-                  </p>
-                </div>
-                <div className="gap-2 text-center">
-                  <h2 className="font-sans font-bold text-4xl lg:text-5xl text-Primary-600">
-                    40+
-                  </h2>
-                  <p className="font-sans text:sm lg:text-base text-Neutral-300">
-                    Country
-                    <br />
-                    Available
-                  </p>
-                </div>
-              </div>
+              <SectionPresentation />
+       
             </div>
           </div>
         </div>
