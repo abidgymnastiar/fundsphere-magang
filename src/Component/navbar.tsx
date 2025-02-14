@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div className="sticky top-0 bg-white z-50 px-5">
-        <div className="container flex justify-between items-center mx-auto py-8 ">
+        <div className="container flex justify-between items-center mx-auto py-5 ">
           <div className="flex flex-row gap-28">
             <a href="#">
               <img src={logo} alt="" />
