@@ -1,6 +1,6 @@
 import image1 from "../../../assets/svg/features/Picture.svg";
 import image2 from "../../../assets/svg/features/Picture-1.svg";
-function SectionCartFeature() {
+function SectionCardFeature() {
   const statsData = [
     {
       title: "Pay with Fundsphere, quick, simple and easy",
@@ -37,4 +37,4 @@ function SectionCartFeature() {
     </div>
   );
 }
-export default SectionCartFeature;
+export default SectionCardFeature;

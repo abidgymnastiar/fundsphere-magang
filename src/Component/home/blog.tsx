@@ -1,6 +1,7 @@
 import SectionHeader from "./ui/header";
 import pattern from "../../assets/svg/blog/Pattern.svg";
 import SectionCardBlog from "./ui/card_blog";
+import SectionButton from "./ui/button";
 
 function Blog() {
   return (
@@ -14,11 +15,7 @@ function Blog() {
             description="Find growth insight in our blog."
           />
           <SectionCardBlog />
-          <div className="w-max rounded-full bg-Primary-600 hover:bg-Primary-400">
-            <button className="font-sans font-medium text-base text-white px-8 py-4">
-              Read More Article
-            </button>
-          </div>
+          <SectionButton button="See More Articles" />
         </div>
       </div>
     </div>

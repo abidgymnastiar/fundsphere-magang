@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SectionHeader from "./ui/header";
 import SectionCradPlan from "./ui/card_plan";
+import SectionTogle from "./ui/togle";
 
 function Plan() {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -14,7 +15,8 @@ function Plan() {
         />
         <div className="flex flex-col gap-10 items-center">
           {/* togle */}
-          <div className="flex items-center gap-4">
+          <SectionTogle isAnnual={isAnnual} setIsAnnual={setIsAnnual}/>
+          {/* <div className="flex items-center gap-4">
             <span
               className={`font-sans font-normal text-base ${
                 !isAnnual ? "text-Primary-600" : "text-Neutral-300"
@@ -41,9 +43,9 @@ function Plan() {
             >
               Yearly
             </span>
-          </div>
+          </div> */}
           {/* card */}
-          <SectionCradPlan />
+          <SectionCradPlan isAnnual={isAnnual}/>
         </div>
       </div>
     </div>
