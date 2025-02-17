@@ -1,6 +1,6 @@
 import SectionHeader from "./ui/header";
 import SectionButton from "./ui/button";
-import SectionCartFeature from "./ui/card_features";
+import SectionCardFeature from "./ui/card_features";
 
 function Features() {
   return (
@@ -13,7 +13,7 @@ function Features() {
           description="Growth-accelerating products for startups, ecommerce stores, angel investors, & more."
         />
         {/* content */}
-        <SectionCartFeature />
+        <SectionCardFeature />
         <SectionButton button="See More Features" />
       </div>
     </div>
