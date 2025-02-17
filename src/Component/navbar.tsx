@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <>
       <div className="sticky top-0 bg-white z-50 px-5">
-        <div className="container flex justify-between items-center mx-auto py-5 ">
-          <div className="flex flex-row gap-28">
+        <div className="container flex justify-between items-center mx-auto ">
+          <div className="flex flex-row gap-28 py-5">
             <a href="#">
               <img src={logo} alt="" />
             </a>
@@ -77,7 +77,7 @@ function Navbar() {
               onClick={() => setShowMenu(!showMenu)}
             ></i>
             <div
-              className={`absolute xl:hidden top-24 left-0 w-full py-5 bg-Primary-100 flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${
+              className={`absolute xl:hidden top-20 left-0 w-full py-5 bg-white flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${
                 showMenu ? "translate-x-[0%]" : "translate-x-[-150%]"
               }`}
               style={{ transition: "transform 0.3s ease, opacity" }}

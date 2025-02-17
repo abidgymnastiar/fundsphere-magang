@@ -52,7 +52,6 @@ function Hero() {
                 <Sectionformemail />
               </div>
               <SectionPresentation />
-       
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import background from "../../assets/svg/footer/Pattern.svg";
+import Sectionformemail from "../home/ui/form_email";
 
 function CTA() {
   return (
@@ -21,22 +22,8 @@ function CTA() {
                 investor network.
               </p>
             </div>
-            <div className=" flex flex-row w-full border-1 rounded-full py-1 pr-1 pl-8 border-Neutral-100 bg-white max-w-[412px]">
-              <input
-                id="email"
-                name="email"
-                type="text"
-                placeholder="Your work email"
-                className="w-full flex-1 normal-case font-sans text-base text-Neutral-400 bg-transparent focus:outline-none "
-              />
-              <div className="inline-block flex-none rounded-full bg-Primary-600 hover:bg-Primary-400">
-                <button
-                  type="submit"
-                  className=" capitalize font-sans font-normal text-base text-white px-8 py-4"
-                >
-                  Get Started
-                </button>
-              </div>
+            <div className="w-full max-w-[412px]">
+              <Sectionformemail />
             </div>
           </div>
         </div>
