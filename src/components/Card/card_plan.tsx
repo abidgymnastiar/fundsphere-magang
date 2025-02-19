@@ -1,6 +1,6 @@
 import icon from "../../../assets/svg/icon/Icon.svg";
-import SectionButtonDark from "./button/button_dark";
-import SectionButtonLight from "./button/button_light";
+import SectionButtonDark from "../../../components/Button/Secondary/ButtonDark";
+import SectionButtonLight from "../../../components/Button/Secondary/ButtonLight";
 interface SectionToggleProps {
   isAnnual: boolean;
 }

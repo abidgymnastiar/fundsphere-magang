@@ -1,4 +1,4 @@
-import SectionHeader from "./ui/header";
+import SectionHeader from "../elements/header/header";
 import SectionButton from "./ui/button";
 import SectionCardFeature from "./ui/card_features";
 

@@ -1,7 +1,7 @@
-import logo from "../../assets/svg/footer/Logo.svg";
-import sosmet from "../../assets/svg/footer/Facebook.svg";
-import sosmet1 from "../../assets/svg/footer/Twitter.svg";
-import sosmet2 from "../../assets/svg/footer/in.svg";
+import logo from "../../../assets/svg/footer/Logo.svg";
+import sosmet from "../../../assets/svg/footer/Facebook.svg";
+import sosmet1 from "../../../assets/svg/footer/Twitter.svg";
+import sosmet2 from "../../../assets/svg/footer/in.svg";
 
 function content() {
   return (
