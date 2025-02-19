@@ -1,5 +1,5 @@
-import image1 from "../../../assets/svg/features/Picture.svg";
-import image2 from "../../../assets/svg/features/Picture-1.svg";
+import image1 from "../../assets/svg/features/Picture.svg";
+import image2 from "../../assets/svg/features/Picture-1.svg";
 function SectionCardFeature() {
   const statsData = [
     {

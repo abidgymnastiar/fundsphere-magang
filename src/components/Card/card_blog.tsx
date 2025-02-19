@@ -1,6 +1,6 @@
-import image from "../../../assets/svg/blog/Graphic.svg";
-import image1 from "../../../assets/svg/blog/Graphic-1.svg";
-import image2 from "../../../assets/svg/blog/Graphic-2.svg";
+import image from "../../assets/svg/blog/Graphic.svg";
+import image1 from "../../assets/svg/blog/Graphic-1.svg";
+import image2 from "../../assets/svg/blog/Graphic-2.svg";
 
 function SectionCardBlog() {
   const statsData = [

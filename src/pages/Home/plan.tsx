@@ -1,7 +1,7 @@
 import { useState } from "react";
-import SectionHeader from "../elements/header/header";
-import SectionCradPlan from "./ui/card_plan";
-import SectionTogle from "./ui/togle";
+import SectionHeader from "../../components/HeaderText";
+import SectionTogle from "../../components/Toggle";
+import SectionCradPlan from "../../components/Card/card_plan";
 
 function Plan() {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -16,34 +16,6 @@ function Plan() {
         <div className="flex flex-col gap-10 items-center">
           {/* togle */}
           <SectionTogle isAnnual={isAnnual} setIsAnnual={setIsAnnual} />
-          {/* <div className="flex items-center gap-4">
-            <span
-              className={`font-sans font-normal text-base ${
-                !isAnnual ? "text-Primary-600" : "text-Neutral-300"
-              }`}
-            >
-              Monthly
-            </span>
-            <div
-              className={`relative w-16 h-8 flex items-center bg-gray-300 rounded-full p-1 border border-Neutral-200 cursor-pointer transition-all ${
-                isAnnual ? "bg-Neutral-100" : "bg-Neutral-300/5"
-              }`}
-              onClick={() => setIsAnnual(!isAnnual)}
-            >
-              <div
-                className={`absolute w-6 h-6 bg-Primary-600 rounded-full shadow-md transform transition-all ${
-                  isAnnual ? "translate-x-8" : "translate-x-0"
-                }`}
-              ></div>
-            </div>
-            <span
-              className={`font-sans font-normal text-base ${
-                isAnnual ? "text-Primary-600" : "text-Neutral-300"
-              }`}
-            >
-              Yearly
-            </span>
-          </div> */}
           {/* card */}
           <SectionCradPlan isAnnual={isAnnual} />
         </div>
