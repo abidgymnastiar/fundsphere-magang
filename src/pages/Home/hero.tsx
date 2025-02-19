@@ -2,9 +2,9 @@ import image1 from "../../assets/svg/hero/Group-1057.svg";
 import image2 from "../../assets/svg/hero/Graphic.svg";
 import image3 from "../../assets/svg/hero/Mask group.svg";
 import image4 from "../../assets/svg/hero/Rectangle-6759.svg";
-import SectionLabel from "./ui/label";
-import Sectionformemail from "./ui/form_email";
-import SectionPresentation from "./ui/presentation";
+import SectionLabel from "../../components/Bedge/label";
+import Sectionformemail from "../../components/Form/form_email";
+import SectionPresentation from "../../components/Data/presentation";
 
 function Hero() {
   return (

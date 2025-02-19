@@ -1,4 +1,4 @@
-import SectionHeader from "./ui/header";
+import SectionHeader from "../elements/header/header";
 import pattern from "../../assets/svg/blog/Pattern.svg";
 import SectionCardBlog from "./ui/card_blog";
 import SectionButton from "./ui/button";

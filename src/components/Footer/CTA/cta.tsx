@@ -1,5 +1,5 @@
-import background from "../../assets/svg/footer/Pattern.svg";
-import Sectionformemail from "../home/ui/form_email";
+import background from "../../../assets/svg/footer/Pattern.svg";
+import Sectionformemail from "../../Form/form_email";
 
 function CTA() {
   return (

@@ -1,5 +1,5 @@
-import Content from "./footer/content";
-import CTA from "./footer/cta";
+import Content from "./Content/content";
+import CTA from "./CTA/cta";
 
 function Footer() {
   return (
