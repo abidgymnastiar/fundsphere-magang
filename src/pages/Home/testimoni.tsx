@@ -1,7 +1,7 @@
-import SectionHeader from "../elements/header/header";
 import star from "../../assets/svg/testimony/Star.svg";
-import SectionButton from "./ui/button";
-import SectionCardTestimony from "./ui/card_testimony";
+import SectionButton from "../../components/Button/Default";
+import SectionCardTestimony from "../../components/Card/card_testimony";
+import SectionHeader from "../../components/HeaderText";
 
 function Testimony() {
   return (

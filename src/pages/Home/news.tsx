@@ -3,7 +3,7 @@ import IconEbay from "../../assets/code/ebay";
 import IconUber from "../../assets/code/uber";
 import IconWalmart from "../../assets/code/walmart";
 
-function Iklan() {
+function News() {
   return (
     <div className="bg-Additional-NavyBlue">
       <div className="container  max-w-[1200px] px-5 lg:px-0 py-6 lg:py-14 mx-auto">
@@ -18,4 +18,4 @@ function Iklan() {
   );
 }
 
-export default Iklan;
+export default News;

@@ -1,6 +1,6 @@
-import SectionHeader from "../elements/header/header";
-import SectionButton from "./ui/button";
-import SectionCardFeature from "./ui/card_features";
+import SectionButton from "../../components/Button/Default";
+import SectionCardFeature from "../../components/Card/card_features";
+import SectionHeader from "../../components/HeaderText";
 
 function Features() {
   return (

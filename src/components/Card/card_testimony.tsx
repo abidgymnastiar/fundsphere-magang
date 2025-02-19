@@ -1,5 +1,5 @@
-import image1 from "../../../assets/svg/testimony/Picture.svg";
-import image2 from "../../../assets/svg/testimony/Picture-1.svg";
+import image1 from "../../assets/svg/testimony/Picture.svg";
+import image2 from "../../assets/svg/testimony/Picture-1.svg";
 function SectionCardTestimony() {
   const statsData = [
     {

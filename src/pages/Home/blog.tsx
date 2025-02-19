@@ -1,7 +1,8 @@
-import SectionHeader from "../elements/header/header";
 import pattern from "../../assets/svg/blog/Pattern.svg";
-import SectionCardBlog from "./ui/card_blog";
-import SectionButton from "./ui/button";
+import SectionButton from "../../components/Button/Default";
+import SectionCardBlog from "../../components/Card/card_blog";
+import SectionHeader from "../../components/HeaderText";
+
 
 function Blog() {
   return (
