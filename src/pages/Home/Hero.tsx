@@ -1,4 +1,4 @@
-import SectionPresentation from "../../components/Data";
+import Data from "../../components/Data";
 import FormEmail from "../../components/Form/FormEmail";
 import HeroHeader from "../../components/Hero/HeroHeader";
 import HeroImage from "../../components/Hero/HeroImage";
@@ -28,7 +28,7 @@ function Hero() {
                 <HeroHeader />
                 <FormEmail />
               </div>
-              <SectionPresentation />
+              <Data />
             </div>
           </div>
         </div>
