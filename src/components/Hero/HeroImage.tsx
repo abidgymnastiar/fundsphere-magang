@@ -1,4 +1,4 @@
-import image1 from "../../assets/svg/hero/priceHeroImg.svg";
+import image1 from "../../assets/svg/hero/retangle-1223.svg";
 import image2 from "../../assets/svg/hero/Graphic.svg";
 import image3 from "../../assets/svg/hero/Mask group.svg";
 import image4 from "../../assets/svg/hero/Rectangle-6759.svg";
