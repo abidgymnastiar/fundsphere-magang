@@ -1,4 +1,4 @@
-import image1 from "../../../assets/svg/features/Picture.svg";
+import image1 from "../../../assets/svg/features/Picture1.svg";
 import image2 from "../../../assets/svg/features/Picture-1.svg";
 import HeaderSecondary from "../../HeaderText/HeaderSecondary";
 import Image from "./FeatureImage";
