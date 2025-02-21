@@ -1,9 +1,10 @@
-import Blog from "./blog";
-import Features from "./features";
-import Hero from "./hero";
-import News from "./news";
-import Plan from "./plan";
-import Testimony from "./testimoni";
+import Insight from "./Insight";
+import Features from "./Features";
+import Hero from "./Hero";
+import News from "./News";
+import Pricing from "./Pricing";
+import Testimony from "./Testimoni";
+
 
 function Home() {
   return (
@@ -12,8 +13,8 @@ function Home() {
         <Hero />
         <News />
         <Features />
-        <Plan />
-        <Blog />
+        <Pricing />
+        <Insight />
         <Testimony />
       </div>
     </>

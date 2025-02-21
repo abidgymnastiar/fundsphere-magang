@@ -1,8 +1,11 @@
-import image from "../../assets/svg/blog/Graphic.svg";
-import image1 from "../../assets/svg/blog/Graphic-1.svg";
-import image2 from "../../assets/svg/blog/Graphic-2.svg";
+import image from "../../../assets/svg/Insight/Graphic.svg";
+import image1 from "../../../assets/svg/Insight/Graphic-1.svg";
+import image2 from "../../../assets/svg/Insight/Graphic-2.svg";
+import InsightImage from "./InsightImage";
+import InsightTitle from "./InsightTitle";
+import InsightDate from "./InsightDate";
 
-function SectionCardBlog() {
+function CardInsight() {
   const statsData = [
     {
       image: image,
@@ -28,14 +31,10 @@ function SectionCardBlog() {
         {statsData.map((stat, index) => (
           <div key={index}>
             <div className="flex flex-col justify-center gap-5">
-              <img src={stat.image} alt="" />
+              <InsightImage src={stat.image} />
               <div className="flex flex-col justify-between px-6 py-2 min-h-[138px] bg-white rounded-xl">
-                <p className="font-sans font-medium text-lg lg:text-xl text-Neutral-600">
-                  {stat.title}
-                </p>
-                <p className="font-sans font-normal text-base text-Neutral-400">
-                  {stat.date}
-                </p>
+                <InsightTitle title={stat.title} />
+                <InsightDate date={stat.date} />
               </div>
             </div>
           </div>
@@ -45,4 +44,4 @@ function SectionCardBlog() {
   );
 }
 
-export default SectionCardBlog;
+export default CardInsight;

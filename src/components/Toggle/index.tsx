@@ -1,14 +1,14 @@
 
 interface SectionToggleProps {
   isAnnual: boolean;
+  position?: string;
   setIsAnnual: (value: boolean) => void;
 }
 
-function SectionTogle({ isAnnual, setIsAnnual }: SectionToggleProps) {
-//   const [isAnnual, setIsAnnual] = useState(false);
+function SectionTogle({ isAnnual, position = "left", setIsAnnual }: SectionToggleProps) {
   return (
     <>
-      <div className="flex items-center gap-4">
+      <div className={`flex gap-4 ${position == "left" ? "justify-start md:justify-center" : "justify-center"}`}>
         <span
           className={`font-sans font-normal text-base ${
             !isAnnual ? "text-Primary-600" : "text-Neutral-300"
