@@ -1,9 +1,9 @@
-import Features from "./features";
-import Hero from "./hero";
+import Features from "./featuress";
+import Hero from "./heroo";
 import Insight from "./Insight";
-import News from "./news";
+import News from "./newss";
 import Pricing from "./Pricing";
-import Testimony from "./testimoni";
+import Testimony from "./testimonii";
 
 function Home() {
   return (
