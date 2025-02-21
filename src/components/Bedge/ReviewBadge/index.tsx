@@ -1,4 +1,4 @@
-import ratingstar from "../../../assets/svg/testimony/Star.svg";
+import ratingstar from "../../../assets/svg/SvgTestimony/Star.svg";
 
 function BadgeReview() {
   return (

@@ -2,7 +2,7 @@
 import SectionButton from "../../components/Button/Default";
 import SectionCardBlog from "../../components/Card/Insight";
 import SectionHeader from "../../components/HeaderText/HeaderPrimary";
-import pattern from "../../assets/svg/Insight/PatternInsight.svg";
+import pattern from "../../assets/svg/SvgInsight/PatternInsight.svg";
 
 function Insight() {
   return (

@@ -1,5 +1,5 @@
-import image1 from "../../../assets/svg/features/Picture3.svg";
-import image2 from "../../../assets/svg/features/Picture-1.svg";
+import image1 from "../../../assets/svg/SvgFeatures/Picture3.svg";
+import image2 from "../../../assets/svg/SvgFeatures/Picture-1.svg";
 import HeaderSecondary from "../../HeaderText/HeaderSecondary";
 import Image from "./FeatureImage";
 
