@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/image/Logo.png";
-import dropdown from "../../assets/svg/navbar/Icon.svg";
+import dropdown from "../../assets/svg/Logo/Icon.svg";
 import SectionStaticNav from "../Button/Primary/Static";
 import SectionSolidNav from "../Button/Primary/Solid";
 
@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="sticky bg-white z-50 px-5">
+      <div className="sticky bg-white z-50 px-8">
         <div className="container flex justify-between items-center mx-auto max-w-[1280px]">
           <div className="flex flex-row gap-28 py-5">
             <a href="#">
