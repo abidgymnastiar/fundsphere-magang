@@ -1,4 +1,4 @@
-import Icon from "../../../assets/svg/icon/Icon.svg";
+import Icon from "../../../assets/svg/SvgIcon/Icon.svg";
 
 interface PricingFeatureProps {
   features: string[];

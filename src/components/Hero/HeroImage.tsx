@@ -1,7 +1,7 @@
-import image1 from "../../assets/svg/hero/imgg2.svg";
-import image2 from "../../assets/svg/hero/Graphic2.svg";
-import image3 from "../../assets/svg/hero/Mask group.svg";
-import image4 from "../../assets/svg/hero/Rectangle-6759.svg";
+import image1 from "../../assets/svg/SvgHero/imgg2.svg";
+import image2 from "../../assets/svg/SvgHero/Graphic2.svg";
+import image3 from "../../assets/svg/SvgHero/Mask group.svg";
+import image4 from "../../assets/svg/SvgHero/Rectangle-6759.svg";
 
 function HeroImage() {
   return (

@@ -1,4 +1,4 @@
-import logo from "../../../assets/svg/footer/Logo.svg";
+import logo from "../../../assets/svg/SvgFooter/Logo.svg";
 
 function ContentAddress() {
   return (

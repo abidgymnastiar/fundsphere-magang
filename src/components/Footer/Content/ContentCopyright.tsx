@@ -1,6 +1,6 @@
-import sosmet from "../../../assets/svg/footer/Facebook.svg";
-import sosmet1 from "../../../assets/svg/footer/Twitter.svg";
-import sosmet2 from "../../../assets/svg/footer/in.svg";
+import sosmet from "../../../assets/svg/SvgFooter/Facebook.svg";
+import sosmet1 from "../../../assets/svg/SvgFooter/Twitter.svg";
+import sosmet2 from "../../../assets/svg/SvgFooter/in.svg";
 
 function ContentCopyright() {
   return (

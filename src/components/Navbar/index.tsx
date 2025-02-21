@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/image/Logo.png";
-import dropdown from "../../assets/svg/Logo/Icon.svg";
+import dropdown from "../../assets/svg/SvgLogo/Icon.svg";
 import SectionStaticNav from "../Button/Primary/Static";
 import SectionSolidNav from "../Button/Primary/Solid";
 
