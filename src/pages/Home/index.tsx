@@ -1,5 +1,5 @@
 import Features from "./Features";
-import Hero from "./hero";
+import Hero from "./Herro";
 import Insight from "./Insight";
 import News from "./News";
 import Pricing from "./Pricing";
