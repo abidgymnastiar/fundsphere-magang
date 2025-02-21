@@ -4,7 +4,6 @@ import Insight from "./Insight";
 import News from "./News";
 import Pricing from "./Pricing";
 import Testimony from "./Testimoni";
-
 function Home() {
   return (
     <>
