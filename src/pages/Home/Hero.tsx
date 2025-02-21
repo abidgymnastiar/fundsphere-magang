@@ -2,8 +2,8 @@ import Data from "../../components/Data";
 import FormEmail from "../../components/Form/FormEmail";
 import HeroHeader from "../../components/Hero/HeroHeader";
 import HeroImage from "../../components/Hero/HeroImage";
-import bg1 from "../../assets/svg/Hero/Rectangle 6761.svg";
-import bg2 from "../../assets/svg/Hero/Rectangle 6760.svg";
+import bg1 from "../../assets/svg/Hero/Rectangle1.svg";
+import bg2 from "../../assets/svg/Hero/Rectangle2.svg";
 
 function Hero() {
   return (
