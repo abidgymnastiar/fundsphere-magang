@@ -1,5 +1,5 @@
-import SectionButton from "../../components/Button/Default";
-import SectionCardTestimony from "../../components/Card/CardTestimony";
+import Button from "../../components/Button/Default";
+import CardTestimony from "../../components/Card/CardTestimony";
 import SectionHeader from "../../components/HeaderText/HeaderPrimary";
 import BedgeReview from "../../components/Bedge/ReviewBadge";
 
@@ -19,9 +19,9 @@ function Testimony() {
             <BedgeReview />
           </div>
         </div>
-        <SectionCardTestimony />
+        <CardTestimony />
         <div className="hidden md:block">
-          <SectionButton text="Read More Article" />
+          <Button text="Read More Article" />
         </div>
       </div>
     </div>

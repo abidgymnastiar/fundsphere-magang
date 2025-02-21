@@ -1,4 +1,4 @@
-import background from "../../../assets/svg/footer/Pattern.svg";
+import background from "../../../assets/svg/footer/PatternFooter.svg";
 import FormEmail from "../../Form/FormEmail";
 import CtaDescription from "./CtaDescription";
 import CtaTitle from "./CtaTitle";
