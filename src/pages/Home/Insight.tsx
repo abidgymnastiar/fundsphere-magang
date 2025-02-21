@@ -1,7 +1,8 @@
-import pattern from "../../assets/svg/insight/Pattern.svg";
+
 import SectionButton from "../../components/Button/Default";
 import SectionCardBlog from "../../components/Card/Insight";
 import SectionHeader from "../../components/HeaderText/HeaderPrimary";
+import pattern from "../../assets/svg/Insight/Pattern.svg";
 
 function Insight() {
   return (
