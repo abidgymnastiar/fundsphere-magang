@@ -1,9 +1,10 @@
-import Insight from "./Insight";
 import Features from "./Features";
 import Hero from "./Hero";
+import Insight from "./Insight";
 import News from "./News";
 import Pricing from "./Pricing";
 import Testimony from "./Testimoni";
+
 
 
 function Home() {
