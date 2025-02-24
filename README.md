@@ -2,4 +2,6 @@ running
 
 npm run dev
 
-camelcase 
+running db json
+
+npx json-server db.json
