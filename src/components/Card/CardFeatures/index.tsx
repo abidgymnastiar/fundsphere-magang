@@ -3,6 +3,7 @@ import image2 from "../../../assets/svg/SvgFeatures/Picture-1.svg";
 import HeaderSecondary from "../../HeaderText/HeaderSecondary";
 import Image from "./FeatureImage";
 
+
 function CardFeature() {
   const statsData = [
     {
@@ -18,6 +19,7 @@ function CardFeature() {
       image: image2,
     },
   ];
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {statsData.map((stat, index) => (
@@ -27,7 +29,7 @@ function CardFeature() {
               title={stat.title}
               description={stat.description}
             />
-            <Image src={stat.image}/>
+            <Image src={stat.image} />
           </div>
         </div>
       ))}
